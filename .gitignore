@@ -27,7 +27,7 @@
 *.lib
 
 # Executables
-*.exe
+/bin/*.exe
 *.out
 *.app
 
@@ -36,6 +36,8 @@
 /x64/
 */x64/
 /.vs/
+/bin/
+/bin-int/
 
 # VS solution file
 *.sln
