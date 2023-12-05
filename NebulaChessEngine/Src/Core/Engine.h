@@ -4,8 +4,9 @@
 
 namespace NCE {
 	class Engine {
-
+	public:
+		void PrintBoard() const;
 	private:
-		Board board;
+		Board m_Board;
 	};
 }
